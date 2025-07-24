@@ -1,0 +1,11 @@
+# Test Configuration
+browser:
+  headless: false
+  device:
+    type: "iPhone 12"
+
+test:
+  base_url: "http://localhost:3000"
+
+environment:
+  platform: "WEB"
