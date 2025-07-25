@@ -8,7 +8,6 @@ from core.selector import Selector
 
 
 class BrowserPageBase(ABC):
-
     @abstractmethod
     def goto(self, url: str) -> None: ...
 
@@ -19,7 +18,6 @@ class BrowserPageBase(ABC):
 
 
 class PlaywrightPage(BrowserPageBase):
-
     def __init__(self, page: Page) -> None:
         self.__page = page
 

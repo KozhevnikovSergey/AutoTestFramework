@@ -16,7 +16,6 @@ class TestContext:
 
 
 class ContextFactory(ABC):
-
     def __init__(self, config: Config) -> None:
         self.config = config
 

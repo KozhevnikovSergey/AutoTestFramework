@@ -12,7 +12,6 @@ class BrowserBase(ABC):
 
 
 class PlaywrightBrowser(BrowserBase):
-
     def __init__(self, playwright: PlaywrightBrowserContext) -> None:
         self.playwright = playwright
 
