@@ -50,6 +50,4 @@ class PlaywrightContextFactory(ContextFactory):
         )
 
     def create_page(self, browser) -> PlaywrightPage:
-        page = browser.new_page()
-        page.goto(self.config.test.base_url)
         return browser.new_page()
